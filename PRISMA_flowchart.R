@@ -108,10 +108,7 @@ p <- p +
   annotate('text', x = 96.5, y = 95, label = paste('Identified by\n other sources\n (n=',
                                                    format_statistics(search_db_5),')'), size = 4)
 
-
-
-#Draw connecting lines
-
+#Draw connecting lines between boxes
 p <- p +
   geom_segment(
     x = 17.5, xend = 17.5, y = 90, yend = 85,
@@ -137,7 +134,7 @@ p <- p +
     arrow = arrow(length = unit(1, "mm"), type = "closed"))
 
 
-#Create boxes for flowchart
+#Create boxes and connectors for flowchart
 #Total results from search
 p <- p +
   geom_rect(xmin = 20, xmax = 50, ymin = 70, ymax = 80, color = 'black',
@@ -145,7 +142,6 @@ p <- p +
   annotate('text', x = 35, y = 75, label = paste('Total results from search\n (n=',
                                                  format_statistics(total_results_from_search),
                                                  ')'), size = 4)
-
 #Duplicates removed
 p <- p +
   geom_segment(
@@ -212,7 +208,6 @@ p <- p +
   annotate('text', x = 70, y = 37.5, label = paste('Articles excluded (Full-text)\n (n=',
                                                    format_statistics(exclusion2),
                                                    ')'),size = 4)
-
 #Articles included in the synthesis
 p <- p +
   geom_rect(xmin = 20, xmax = 50, ymin = 25, ymax = 35, color = 'black',
