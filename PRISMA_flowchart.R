@@ -1,8 +1,12 @@
 #Create PRISMA Flow Chart
-#Code created by Catherine Jutzeler, modified version of https://github.com/geritwagner/r-prisma-diagram/blob/master/prisma-diagram.R
+#Code created by Catherine Jutzeler (March 29th, 2020): modified version of https://github.com/geritwagner/r-prisma-diagram/blob/master/prisma-diagram.R
 
 #Clear Working Space
 rm(list=ls())
+
+#Install packackes if required
+if(!require(tidyverse)){install.packages("tidyverse")}
+if(!require(ggplot2)){install.packages("ggplot2")}
 
 #Load libraries
 library(tidyverse)
