@@ -13,17 +13,17 @@ library(tidyverse)
 library(ggplot2)
 
 #List Number of Studies Found in Each Database
-search_db_1 = 10  #Embase
-search_db_2 = 20  #Pubmed/Medline
-search_db_3 = 30  #Scopus
-search_db_4 = 40  #Web of Science
-search_db_5 = 50  #Other Sources (e.g., Reference Lists)
+search_db_1 = 2194  #Embase
+search_db_2 = 1922  #Pubmed/Medline
+search_db_3 = 1348  #Scopus
+search_db_4 = 1046  #Web of Science
+search_db_5 = 7  #Other Sources (e.g., Reference Lists)
 
 #Caculate total number of studies indentified
 total_results_from_search = search_db_1 + search_db_2 + search_db_3 +search_db_4+ search_db_5
 
 #Caculate total number duplicates
-duplicates_removed = 10
+duplicates_removed = 3438
 
 #Total number of records screened
 records_screened = total_results_from_search - duplicates_removed
