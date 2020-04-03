@@ -33,6 +33,7 @@ countries_of_interest = read.table(text="
                  'France' 50
                  'China' 70
                  'Germany' 100
+                'United States' 90
                  'Singapore' 80", header=TRUE)
 
 

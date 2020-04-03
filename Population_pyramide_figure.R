@@ -14,20 +14,28 @@ rm(list=ls())
 library(ggplot2)
 library('ggthemes')
 library(ggpubr)
+library(gridExtra)
 
 #Load data
-corona_sex_distr <- read.csv(file.choose())
+#corona_sex_distr <- read.csv(file.choose(), sep = ',', header = TRUE)
+
+corona_sex_distr <- read.csv("/Users/jutzelec/Documents/GitHub/Corona-Virus-Meta-Analysis-2020/corona_sex_distr.csv", sep =',', header = TRUE)
 
 #Show variable names of data file loaded
 names(corona_sex_distr)
 
+
 ##Plot data for the male patients
-gg.male <- ggplot(data = subset(corona_sex_distr,Sex=='m'), 
+#Subset female patients and exclude missing data
+corona_sex_distr_m <- subset(corona_sex_distr, (!(is.na(Male))))
+
+#create plot
+gg.male <- ggplot(data = corona_sex_distr_m, 
                   mapping = aes(
                     x = as.factor(Study), 
-                    y = frequency, 
-                    fill = Sex,
-                    label=paste(round(frequency, 0), "%", sep="")
+                    y = as.numeric(Male_frequency), 
+                    fill = Sex_m,
+                    label=paste(round(Male_frequency, 0),  "% ", "[n=", (Male), "]",   sep="")
                   )) +
   geom_bar(stat = "identity") +
   scale_y_continuous('Frequency [%]', limits = c(0, 100)) + 
@@ -48,17 +56,24 @@ gg.male <- ggplot(data = subset(corona_sex_distr,Sex=='m'),
         legend.position = "none",
         legend.margin  = unit(0.1, "lines"),
         legend.text  = element_text(size = 14),
-        legend.text.align = 0)+ 
+        legend.text.align = 0, 
+  axis.ticks.y = element_blank())+ 
   ggtitle("Male") + 
-  coord_flip()    
+  coord_flip()   
+
+gg.male
 
 ##Plot data for the female patients
-gg.female <-  ggplot(data = subset(corona_sex_distr,Sex=='f'), 
+#Subset female patients and exclude missing data
+corona_sex_distr_f <- subset(corona_sex_distr, (!(is.na(Female))))
+
+#create plot
+gg.female <-  ggplot(data = corona_sex_distr_f, 
                      mapping = aes(
                        x = as.factor(Study), 
-                       y = frequency, 
-                       fill = Sex,
-                       label=paste(round(frequency, 0), "%", sep="")
+                       y = as.numeric(Female_frequency), 
+                       fill = Sex_f,
+                       label=paste(round(Female_frequency, 0), "% ", "[n=", (Female), "]",   sep="")
                      )) +
   geom_bar(stat = "identity") +
   geom_text(hjust=(-0.1), size=3.5, colour="#FFFFFF") +
@@ -79,9 +94,12 @@ gg.female <-  ggplot(data = subset(corona_sex_distr,Sex=='f'),
         legend.position = "none",
         legend.margin  = unit(0.1, "lines"),
         legend.text  = element_text(size = 10),
-        legend.text.align = 0)+ 
+        legend.text.align = 0,
+        axis.ticks.y = element_blank())+ 
   ggtitle("Female") + 
   coord_flip()
+
+gg.female
 
 ## Plutting the graphs together together
 grid.arrange(gg.female,
