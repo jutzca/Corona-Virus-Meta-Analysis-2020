@@ -24,9 +24,10 @@ corona_sex_distr <- read.csv("/Users/jutzelec/Documents/GitHub/Corona-Virus-Meta
 #Show variable names of data file loaded
 names(corona_sex_distr)
 
+#------------------------- All patients ------------------------------------------------------------------------------------------------------
 
 ##Plot data for the male patients
-#Subset female patients and exclude missing data
+#Subset male patients and exclude missing data
 corona_sex_distr_m <- subset(corona_sex_distr, (!(is.na(Male))))
 
 #create plot
@@ -105,6 +106,97 @@ gg.female
 grid.arrange(gg.female,
              gg.male,
              widths=c(0.4,0.4),
-             ncol=2
-)
+             ncol=2)
+
+
+#------------------------- Survivors ------------------------------------------------------------------------------------------------------
+
+##Subset data for survivors
+corona_sex_distr_surv <- subset(corona_sex_distr, disease_status=='Survivor')
+
+##Plot data for the male patients that survived
+#Subset male patients and exclude missing data
+corona_sex_distr_surv_m <- subset(corona_sex_distr_surv, (!(is.na(Male))))
+
+#create plot
+gg.male.survivors <- ggplot(data = corona_sex_distr_surv_m, 
+                  mapping = aes(
+                    x = as.factor(Study), 
+                    y = as.numeric(Male_frequency), 
+                    fill = Sex_m,
+                    label=paste(round(Male_frequency, 0),  "% ", "[n=", (Male), "]",   sep="")
+                  )) +
+  geom_bar(stat = "identity") +
+  scale_y_continuous('Frequency [%]', limits = c(0, 100)) + 
+  scale_fill_manual(values=as.vector("#3E606F"))+
+  geom_text(hjust=(1.1), size=3.5, colour="#FFFFFF") +
+  theme(text = element_text(color = "#3A3F4A"),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_line(linetype = "dotted", size = 0.3, color = "#3A3F4A"),
+        axis.title = element_blank(),
+        plot.title = element_text(face = "bold", size = 12, margin = margin(b = 10), hjust = 0.030),
+        plot.subtitle = element_text(size = 12, margin = margin(b = 20), hjust = 0.030),
+        plot.caption = element_text(size = 12, margin = margin(b = 10, t = 50), color = "#5D646F"),
+        axis.text.y = element_text(size = 12, color = "#5D646F"),
+        strip.text = element_text(color = "#5D646F", size = 12, face = "bold", hjust = 0.030),
+        plot.background = element_rect(fill = "#EFF2F4"),
+        plot.margin=unit(c(0.1,0.2,0.1,-.1),"cm"),
+        legend.position = "none",
+        legend.margin  = unit(0.1, "lines"),
+        legend.text  = element_text(size = 14),
+        legend.text.align = 0, 
+        axis.ticks.y = element_blank())+ 
+  ggtitle("Male") + 
+  coord_flip()   
+
+gg.male.survivors
+
+##Plot data for the fmale patients that survived
+#Subset female patients and exclude missing data
+corona_sex_distr_surv_f <- subset(corona_sex_distr_surv, (!(is.na(Female))))
+
+#create plot
+gg.female.survivors <-  ggplot(data = corona_sex_distr_f, 
+                     mapping = aes(
+                       x = as.factor(Study), 
+                       y = as.numeric(Female_frequency), 
+                       fill = Sex_f,
+                       label=paste(round(Female_frequency, 0), "% ", "[n=", (Female), "]",   sep="")
+                     )) +
+  geom_bar(stat = "identity") +
+  geom_text(hjust=(-0.1), size=3.5, colour="#FFFFFF") +
+  scale_y_continuous('Frequency [%]', limits = c(100, 0), trans = 'reverse') + 
+  scale_fill_manual(values=as.vector("#8C3F4D"))+
+  theme(text = element_text(color = "#3A3F4A"),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_line(linetype = "dotted", size = 0.3, color = "#3A3F4A"),
+        axis.title = element_blank(),
+        plot.title = element_text(face = "bold", size = 12, margin = margin(b = 10), hjust = 0.9),
+        plot.subtitle = element_text(size = 12, margin = margin(b = 20), hjust = 0.030),
+        plot.caption = element_text(size = 12, margin = margin(b = 10, t = 50), color = "#5D646F"),
+        axis.text.y = element_blank(),
+        strip.text = element_text(color = "#5D646F", size = 12, face = "bold", hjust = 0.030),
+        plot.background = element_rect(fill = "#EFF2F4"),
+        plot.margin=unit(c(0.1,0.1,0.1,0.05),"cm"),
+        legend.position = "none",
+        legend.margin  = unit(0.1, "lines"),
+        legend.text  = element_text(size = 10),
+        legend.text.align = 0,
+        axis.ticks.y = element_blank())+ 
+  ggtitle("Female") + 
+  coord_flip()
+
+gg.female.survivors
+
+## Plutting the graphs together together
+grid.arrange(gg.female,
+             gg.male,
+             gg.female.survivors,
+             gg.male.survivors,
+             widths=c(0.4,0.4),
+             ncol=2)
+
+
 

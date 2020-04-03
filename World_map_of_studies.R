@@ -1,15 +1,15 @@
 ####Create map of the countries, where the studies have been performed
 ##Created by C.Jutzeler, April 1st, 2020
-###
+
 
 #clear working space
 rm(list = ls())
 
 #Install packages if required
 # if (!require(RColorBrewer)) install.packages("RColorBrewer")
-# if (!require(gpclib)) install.packages("maptools")
-# if (!require(gpclib)) install.packages("ggplot2")
-# if (!require(gpclib)) install.packages("mapproj")
+# if (!require(maptools)) install.packages("maptools")
+# if (!require(ggplot2)) install.packages("ggplot2")
+# if (!require(mapproj)) install.packages("mapproj")
 # if (!require(gpclib)) install.packages("gpclib", type="source")
 
 
@@ -28,17 +28,21 @@ data(wrld_simpl)
 #List countries and number of studies that have been performed
 countries_of_interest = read.table(text="
                  country value
-                 'Korea, Republic of' 40
-                 'Viet Nam' 30
-                 'France' 50
-                 'China' 70
-                 'Germany' 100
-                'United States' 90
-                 'Singapore' 80", header=TRUE)
+                 'Canada' 30
+                  'China' 31
+                  'France' 32
+                  'Germany' 33
+                  'Italy' 34
+                  'Japan' 35
+                 'Viet Nam' 36
+                 'Scottland' 37
+                 'Singapore' 38
+                 'Korea, Republic of' 39
+                'United States' 40", header=TRUE)
 
 
 #Prepare color palette  
-pal <- colorRampPalette(brewer.pal(9, 'Reds'))(length(countries_of_interest$value))
+pal <- colorRampPalette(brewer.pal(11, 'Reds'))(length(countries_of_interest$value))
 pal <- pal[with(countries_of_interest, findInterval(value, sort(unique(value))))]
   
 col <- rep(grey(0.8), length(wrld_simpl@data$NAME))
