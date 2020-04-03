@@ -13,6 +13,7 @@ rm(list = ls())
 # if (!require(gpclib)) install.packages("gpclib", type="source")
 
 
+#Load libraries
 library(RColorBrewer)
 library(maptools)
 library(ggplot2)
