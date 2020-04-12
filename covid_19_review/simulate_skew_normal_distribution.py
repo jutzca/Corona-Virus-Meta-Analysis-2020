@@ -111,6 +111,13 @@ def calculate_location(alpha, mean, std):
 
 def skew_normal_approximation(mean, std):
     """Approximate mean and standard deviation based on skew distribution."""
+    # Require this in order to check it later against our new skewed
+    # approximation.
+    median_, iqr_ = standard_approximation(mean, std)
+
+    medians = []
+    iqrs = []
+
     alpha_grid = np.linspace(-10, 10, dtype=float)
     for alpha in alpha_grid:
         loc = calculate_location(alpha, mean, std)
@@ -123,6 +130,15 @@ def skew_normal_approximation(mean, std):
 
         assert np.allclose(mean_approx, mean)
         assert np.allclose(std_approx, std)
+
+        median = stats.skewnorm.median(alpha, loc, scale)
+        q1 = stats.skewnorm.ppf(0.25, alpha, loc, scale)
+        q3 = stats.skewnorm.ppf(0.75, alpha, loc, scale)
+        iqr = q3 - q1
+
+        medians.append(median)
+        iqrs.append(iqr)
+
 
 if __name__ == '__main__':
     filename = '../data/data.xlsx'
