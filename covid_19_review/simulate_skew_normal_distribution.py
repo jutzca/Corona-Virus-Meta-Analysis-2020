@@ -139,6 +139,11 @@ def skew_normal_approximation(mean, std):
         medians.append(median)
         iqrs.append(iqr)
 
+    median = np.median(medians)
+    iqr = np.median(iqr)
+
+    print(f'{median:.2f} [{iqr:.2f}] vs. {median_:.2f} [{iqr_:.2f}]')
+
 
 if __name__ == '__main__':
     filename = '../data/data.xlsx'
