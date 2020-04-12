@@ -8,6 +8,8 @@ authors = ["Bastian Rieck <bastian.rieck@bsse.ethz.ch>"]
 python = ">=3.7"
 pandas = "^1.0.3"
 xlrd = "^1.2.0"
+numpy = "^1.18.2"
+scipy = "^1.4.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.6"
