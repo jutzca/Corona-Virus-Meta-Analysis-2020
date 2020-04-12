@@ -9,6 +9,8 @@ import re
 import numpy as np
 import pandas as pd
 
+import scipy.stats as stats
+
 
 def standard_approximation(mean, std):
     """Calculate standard approximation of mean and standard deviation.
@@ -85,6 +87,43 @@ def extract_mean_and_std(entry):
     return mean, std
 
 
+def _delta(alpha):
+    """Calculate `delta` auxiliary parameter from skewness parameter."""
+    return alpha / np.sqrt(1 + alpha**2)
+
+
+def calculate_scale(alpha, std):
+    """Calculate scale from standard deviation and skewness."""
+    delta = _delta(alpha)
+    scale = np.sqrt(std**2 / (1 - 2 * delta**2 / np.pi))
+
+    return scale
+
+
+def calculate_location(alpha, mean, std):
+    """Calculate location from standard deviation, mean, and skewness."""
+    delta = _delta(alpha)
+    scale = calculate_scale(alpha, std)
+    location = mean - scale * delta * np.sqrt(2 / np.pi)
+
+    return location
+
+
+def skew_normal_approximation(mean, std):
+    """Approximate mean and standard deviation based on skew distribution."""
+    alpha_grid = np.linspace(-10, 10, dtype=float)
+    for alpha in alpha_grid:
+        loc = calculate_location(alpha, mean, std)
+        scale = calculate_scale(alpha, std)
+
+        # Sanity check: make sure that our fit is correct and we are
+        # able to approximate mean and standard deviation correctly.
+        mean_approx = stats.skewnorm.mean(alpha, loc, scale)
+        std_approx = stats.skewnorm.std(alpha, loc, scale)
+
+        assert np.allclose(mean_approx, mean)
+        assert np.allclose(std_approx, std)
+
 if __name__ == '__main__':
     filename = '../data/data.xlsx'
 
@@ -97,3 +136,8 @@ if __name__ == '__main__':
         # afterwards and then continue with the simulation.
         age_reported = row['Age_reported']
         mean, std = extract_mean_and_std(age_reported)
+
+        if not np.isfinite(mean) or not np.isfinite(std):
+            continue
+
+        skew_normal_approximation(mean, std)
