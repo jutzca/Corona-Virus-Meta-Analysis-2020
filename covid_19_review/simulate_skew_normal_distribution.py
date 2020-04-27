@@ -174,7 +174,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '-m', '--missing',
         type=str,
-        default='Age_Q1',
+        default=None,
         help='Column to use for missingness indicator',
     )
 
@@ -208,12 +208,19 @@ if __name__ == '__main__':
     medians = []
     iqrs = []
 
-    missing_entries = df[df[args.missing].isnull()]
-    for index, row in missing_entries.iterrows():
+    if args.missing is not None:
+        df = df[df[args.missing].isnull()]
+
+    for index, row in df.iterrows():
 
         # This is the entry we are interested in. We try to parse it
         # afterwards and then continue with the simulation.
         value = row[args.column]
+
+        # Ignore any missing values
+        if type(value) is np.float and not np.isfinite(value):
+            continue
+
         mean, std = extract_mean_and_std(value)
 
         if not np.isfinite(mean) or not np.isfinite(std):
