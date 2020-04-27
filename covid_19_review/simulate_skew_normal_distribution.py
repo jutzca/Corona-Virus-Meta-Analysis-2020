@@ -146,8 +146,10 @@ def skew_normal_approximation(mean, std, alpha0, alpha1):
         medians.append(median)
         iqrs.append(iqr)
 
-    median = np.median(medians)
-    iqr = np.median(iqr)
+    # This is the proper assumption here, since we are interested in an
+    # *expected* value.
+    median = np.mean(medians)
+    iqr = np.mean(iqr)
 
     print(f'{median:.2f} [{iqr:.2f}] vs. {median_:.2f} [{iqr_:.2f}]')
     return median, iqr
@@ -232,4 +234,4 @@ if __name__ == '__main__':
 
     print(f'\n'
           f'Overall summary:\n'
-          f'{median:.2f} [{iqr:.2f}]')
+          f'{median:.2f} s[{iqr:.2f}]')
