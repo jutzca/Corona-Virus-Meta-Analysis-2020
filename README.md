@@ -1,4 +1,4 @@
-## SComorbidities, signs and symptoms, laboratory findings, imaging features, treatment strategies, and outcomes in adult and pediatric patients with COVID-19: A systematic review and meta-analysis
+## Comorbidities, signs and symptoms, laboratory findings, imaging features, treatment strategies, and outcomes in adult and pediatric patients with COVID-19: A systematic review and meta-analysis
 
 
 *Authors of this study: Catherine R. Jutzeler, Lucie Bourgignon, Caroline V. Weis, Bobo Tong, Cyrus Wong, Bastian Rieck, Hans Pargger, Sarah Tschudin-Sutter, Adrian Egli, Karsten Borgwardt, Matthias Walter*
