@@ -234,4 +234,4 @@ if __name__ == '__main__':
 
     print(f'\n'
           f'Overall summary:\n'
-          f'{median:.2f} s[{iqr:.2f}]')
+          f'{median:.2f} [{iqr:.2f}]')
