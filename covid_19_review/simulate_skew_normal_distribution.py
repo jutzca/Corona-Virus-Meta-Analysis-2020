@@ -4,7 +4,8 @@
 # mean and standard deviation, respectively, and converts them to median
 # and IQR.
 
-import re
+import argparse
+import os
 
 import numpy as np
 import pandas as pd
@@ -109,7 +110,7 @@ def calculate_location(alpha, mean, std):
     return location
 
 
-def skew_normal_approximation(mean, std):
+def skew_normal_approximation(mean, std, alpha0, alpha1):
     """Approximate mean and standard deviation based on skew distribution."""
     # Require this in order to check it later against our new skewed
     # approximation.
@@ -118,7 +119,13 @@ def skew_normal_approximation(mean, std):
     medians = []
     iqrs = []
 
-    alpha_grid = np.linspace(-10, 10, dtype=float)
+    alpha_grid = np.linspace(
+        alpha0,
+        alpha1,
+        dtype=float,
+        endpoint=True,
+    )
+
     for alpha in alpha_grid:
         loc = calculate_location(alpha, mean, std)
         scale = calculate_scale(alpha, std)
@@ -143,22 +150,86 @@ def skew_normal_approximation(mean, std):
     iqr = np.median(iqr)
 
     print(f'{median:.2f} [{iqr:.2f}] vs. {median_:.2f} [{iqr_:.2f}]')
+    return median, iqr
 
 
 if __name__ == '__main__':
-    filename = '../data/data.xlsx'
 
-    df = pd.read_excel(filename)
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '-i', '--input',
+        default='../data/data.xlsx',
+        help='Input filename'
+    )
 
-    missing_entries = df[df['Age_Q1'].isnull()]
+    parser.add_argument(
+        '-c', '--column',
+        type=str,
+        default='Age_reported',
+        help='Column to use for simulation'
+    )
+
+    parser.add_argument(
+        '-m', '--missing',
+        type=str,
+        default='Age_Q1',
+        help='Column to use for missingness indicator',
+    )
+
+    parser.add_argument(
+        '-a', '--alpha0',
+        default=0.0,
+        type=float,
+        help='Lower range of skew parameter'
+    )
+
+    parser.add_argument(
+        '-A', '--alpha1',
+        default=1.0,
+        type=float,
+        help='Lower range of skew parameter'
+    )
+
+    args = parser.parse_args()
+
+    filename = args.input
+
+    if os.path.splitext(filename)[1] == '.xlsx':
+        df = pd.read_excel(filename)
+    else:
+        df = pd.read_csv(filename)
+
+    print(f'Simulation of skewed normal distributions\n'
+          f'- Alpha range: [{args.alpha0:.2f}, {args.alpha1:.2f}]\n'
+          f'- Column: {args.column}\n')
+
+    medians = []
+    iqrs = []
+
+    missing_entries = df[df[args.missing].isnull()]
     for index, row in missing_entries.iterrows():
 
         # This is the entry we are interested in. We try to parse it
         # afterwards and then continue with the simulation.
-        age_reported = row['Age_reported']
-        mean, std = extract_mean_and_std(age_reported)
+        value = row[args.column]
+        mean, std = extract_mean_and_std(value)
 
         if not np.isfinite(mean) or not np.isfinite(std):
             continue
 
-        skew_normal_approximation(mean, std)
+        median, iqr = skew_normal_approximation(
+            mean,
+            std,
+            args.alpha0,
+            args.alpha1
+        )
+
+        medians.append(median)
+        iqrs.append(iqr)
+
+    median = np.median(medians)
+    iqr = np.median(iqrs)
+
+    print(f'\n'
+          f'Overall summary:\n'
+          f'{median:.2f} [{iqr:.2f}]')
