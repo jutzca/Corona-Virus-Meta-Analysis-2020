@@ -152,7 +152,7 @@ def skew_normal_approximation(mean, std, alpha0, alpha1):
     iqr = np.mean(iqr)
 
     print(f'{median:.2f} [{iqr:.2f}] vs. {median_:.2f} [{iqr_:.2f}]')
-    return median, iqr
+    return median, iqr, median_, iqr_
 
 
 if __name__ == '__main__':
@@ -208,6 +208,12 @@ if __name__ == '__main__':
     medians = []
     iqrs = []
 
+    # Same numbers under the assumption of having a standard normal
+    # distribution. This is tantamount to setting `alpha = 0.0` but
+    # is faster to calculate.
+    medians_ = []
+    iqrs_ = []
+
     if args.missing is not None:
         df = df[df[args.missing].isnull()]
 
@@ -226,7 +232,7 @@ if __name__ == '__main__':
         if not np.isfinite(mean) or not np.isfinite(std):
             continue
 
-        median, iqr = skew_normal_approximation(
+        median, iqr, median_, iqr_ = skew_normal_approximation(
             mean,
             std,
             args.alpha0,
@@ -236,9 +242,19 @@ if __name__ == '__main__':
         medians.append(median)
         iqrs.append(iqr)
 
+        medians_.append(median_)
+        iqrs_.append(iqr_)
+
     median = np.median(medians)
     iqr = np.median(iqrs)
 
+    median_ = np.median(medians_)
+    iqr_ = np.median(iqrs_)
+
     print(f'\n'
-          f'Overall summary:\n'
+          f'Overall summary (skewed distribution):\n'
           f'{median:.2f} [{iqr:.2f}]')
+
+    print(f'\n'
+          f'Overall summary (normal distribution):\n'
+          f'{median_:.2f} [{iqr_:.2f}]')
