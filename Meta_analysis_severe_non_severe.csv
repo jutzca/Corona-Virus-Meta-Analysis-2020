@@ -1,0 +1,289 @@
+﻿study_nr,Study,PMID,Condition,Ee,Ne,Ec,Nc
+S86,"Wang et al, 2020",32031570,Any comorbity,26,36,38,102
+S86,"Wang et al, 2020",32031570,Hypertension,21,36,22,102
+S86,"Wang et al, 2020",32031570,Diabetes,8,36,6,102
+S86,"Wang et al, 2020",32031570,Any heart condition,9,36,11,102
+S86,"Wang et al, 2020",32031570,COPD,3,36,1,102
+S86,"Wang et al, 2020",32031570,Carcinoma,1,36,6,102
+S86,"Wang et al, 2020",32031570,Fever,36,36,100,102
+S86,"Wang et al, 2020",32031570,Fatigue,29,36,67,102
+S86,"Wang et al, 2020",32031570,Myalgia,12,36,36,102
+S86,"Wang et al, 2020",32031570,Headache,3,36,6,102
+S86,"Wang et al, 2020",32031570,Cough,21,36,61,102
+S86,"Wang et al, 2020",32031570,Sputum,8,36,29,102
+S86,"Wang et al, 2020",32031570,Dyspnoe,23,36,20,102
+S86,"Wang et al, 2020",32031570,Sore throat / Pharyngalgia,12,36,12,102
+S86,"Wang et al, 2020",32031570,Diarrhea,6,36,8,102
+S86,"Wang et al, 2020",32031570,Antibiotics,,36,,102
+S86,"Wang et al, 2020",32031570,Antiviral treatment,34,36,90,102
+S86,"Wang et al, 2020",32031570,Corticosteroids,26,36,36,102
+S86,"Wang et al, 2020",32031570,CT - Pathological findings,36,36,102,102
+S86,"Wang et al, 2020",32031570,CT- Pneumonia,36,36,102,102
+S86,"Wang et al, 2020",32031570,ARDS,22,36,5,102
+S86,"Wang et al, 2020",32031570,Acute kidney injury,3,36,2,102
+S86,"Wang et al, 2020",32031570,sex_male,22,36,53,102
+S86,"Wang et al, 2020",32031570,sex_female,14,36,49,102
+S110,"Zhang et al, 2020",32077115,Any comorbity,46,58,44,82
+S110,"Zhang et al, 2020",32077115,Hypertension,22,58,20,82
+S110,"Zhang et al, 2020",32077115,Diabetes,8,58,9,82
+S110,"Zhang et al, 2020",32077115,Any heart condition,4,58,3,82
+S110,"Zhang et al, 2020",32077115,COPD,2,58,0,82
+S110,"Zhang et al, 2020",32077115,Carcinoma,0,58,,82
+S110,"Zhang et al, 2020",32077115,Fever,51,58,59,82
+S110,"Zhang et al, 2020",32077115,Fatigue,39,58,51,82
+S110,"Zhang et al, 2020",32077115,Myalgia,,58,,82
+S110,"Zhang et al, 2020",32077115,Headache,,58,,82
+S110,"Zhang et al, 2020",32077115,Cough,45,58,45,82
+S110,"Zhang et al, 2020",32077115,Sputum,,58,,82
+S110,"Zhang et al, 2020",32077115,Dyspnoe,24,58,20,82
+S110,"Zhang et al, 2020",32077115,Sore throat / Pharyngalgia,,58,,82
+S110,"Zhang et al, 2020",32077115,Diarrhea,9,58,9,82
+S110,"Zhang et al, 2020",32077115,Antibiotics,,58,,82
+S110,"Zhang et al, 2020",32077115,Antiviral treatment,,58,,82
+S110,"Zhang et al, 2020",32077115,Corticosteroids,,58,,82
+S110,"Zhang et al, 2020",32077115,CT - Pathological findings,57,58,77,82
+S110,"Zhang et al, 2020",32077115,CT- Pneumonia,57,58,77,82
+S110,"Zhang et al, 2020",32077115,ARDS,,58,,82
+S110,"Zhang et al, 2020",32077115,Acute kidney injury,,58,,82
+S110,"Zhang et al, 2020",32077115,sex_male,33,58,38,82
+S110,"Zhang et al, 2020",32077115,sex_female,25,58,44,82
+S30,"Guan et al, 2020",32109013,Any comorbity,67,173,194,926
+S30,"Guan et al, 2020",32109013,Hypertension,41,173,124,926
+S30,"Guan et al, 2020",32109013,Diabetes,28,173,53,926
+S30,"Guan et al, 2020",32109013,Any heart condition,10,173,17,926
+S30,"Guan et al, 2020",32109013,COPD,6,173,6,926
+S30,"Guan et al, 2020",32109013,Carcinoma,6,173,7,926
+S30,"Guan et al, 2020",32109013,Fever,159,173,816,926
+S30,"Guan et al, 2020",32109013,Fatigue,69,173,350,926
+S30,"Guan et al, 2020",32109013,Myalgia,30,173,164,926
+S30,"Guan et al, 2020",32109013,Headache,26,173,124,926
+S30,"Guan et al, 2020",32109013,Cough,122,173,623,926
+S30,"Guan et al, 2020",32109013,Sputum,61,173,309,926
+S30,"Guan et al, 2020",32109013,Dyspnoe,,173,,926
+S30,"Guan et al, 2020",32109013,Sore throat / Pharyngalgia,23,173,130,926
+S30,"Guan et al, 2020",32109013,Diarrhea,10,173,32,926
+S30,"Guan et al, 2020",32109013,Antibiotics,139,173,498,926
+S30,"Guan et al, 2020",32109013,Antiviral treatment,80,173,313,926
+S30,"Guan et al, 2020",32109013,Corticosteroids,77,173,127,926
+S30,"Guan et al, 2020",32109013,CT - Pathological findings,158,173,682,926
+S30,"Guan et al, 2020",32109013,CT- Pneumonia,158,173,682,926
+S30,"Guan et al, 2020",32109013,ARDS,27,173,10,926
+S30,"Guan et al, 2020",32109013,Acute kidney injury,5,173,1,926
+S30,"Guan et al, 2020",32109013,sex_male,100,173,537,926
+S30,"Guan et al, 2020",32109013,sex_female,73,173,386,926
+S94,"Xu et al, 2020",32109443,Any comorbity,,13,,37
+S94,"Xu et al, 2020",32109443,Hypertension,,13,,37
+S94,"Xu et al, 2020",32109443,Diabetes,,13,,37
+S94,"Xu et al, 2020",32109443,Any heart condition,,13,,37
+S94,"Xu et al, 2020",32109443,COPD,,13,,37
+S94,"Xu et al, 2020",32109443,Carcinoma,,13,,37
+S94,"Xu et al, 2020",32109443,Fever,10,13,33,37
+S94,"Xu et al, 2020",32109443,Fatigue,6,13,2,37
+S94,"Xu et al, 2020",32109443,Myalgia,4,13,4,37
+S94,"Xu et al, 2020",32109443,Headache,2,13,3,37
+S94,"Xu et al, 2020",32109443,Cough,6,13,14,37
+S94,"Xu et al, 2020",32109443,Sputum,2,13,5,37
+S94,"Xu et al, 2020",32109443,Dyspnoe,4,13,0,37
+S94,"Xu et al, 2020",32109443,Sore throat / Pharyngalgia,1,13,3,37
+S94,"Xu et al, 2020",32109443,Diarrhea,,13,,37
+S94,"Xu et al, 2020",32109443,Antibiotics,,13,,37
+S94,"Xu et al, 2020",32109443,Antiviral treatment,,13,,37
+S94,"Xu et al, 2020",32109443,Corticosteroids,,13,,37
+S94,"Xu et al, 2020",32109443,CT - Pathological findings,13,13,27,37
+S94,"Xu et al, 2020",32109443,CT- Pneumonia,,13,,37
+S94,"Xu et al, 2020",32109443,ARDS,,13,,37
+S94,"Xu et al, 2020",32109443,Acute kidney injury,,13,,37
+S94,"Xu et al, 2020",32109443,sex_male,7,13,22,37
+S94,"Xu et al, 2020",32109443,sex_female,6,13,15,37
+S80,"Tian et al, 2020",32112886,Any comorbity,,46,,216
+S80,"Tian et al, 2020",32112886,Hypertension,,46,,216
+S80,"Tian et al, 2020",32112886,Diabetes,,46,,216
+S80,"Tian et al, 2020",32112886,Any heart condition,,46,,216
+S80,"Tian et al, 2020",32112886,COPD,,46,,216
+S80,"Tian et al, 2020",32112886,Carcinoma,,46,,216
+S80,"Tian et al, 2020",32112886,Fever,37,46,178,216
+S80,"Tian et al, 2020",32112886,Fatigue,15,46,54,216
+S80,"Tian et al, 2020",32112886,Myalgia,,46,,216
+S80,"Tian et al, 2020",32112886,Headache,3,46,14,216
+S80,"Tian et al, 2020",32112886,Cough,25,46,95,216
+S80,"Tian et al, 2020",32112886,Sputum,,46,,216
+S80,"Tian et al, 2020",32112886,Dyspnoe,15,46,3,216
+S80,"Tian et al, 2020",32112886,Sore throat / Pharyngalgia,,46,,216
+S80,"Tian et al, 2020",32112886,Diarrhea,,46,,216
+S80,"Tian et al, 2020",32112886,Antibiotics,,46,,216
+S80,"Tian et al, 2020",32112886,Antiviral treatment,,46,,216
+S80,"Tian et al, 2020",32112886,Corticosteroids,,46,,216
+S80,"Tian et al, 2020",32112886,CT - Pathological findings,,46,,216
+S80,"Tian et al, 2020",32112886,CT- Pneumonia,,46,,216
+S80,"Tian et al, 2020",32112886,ARDS,,46,,216
+S80,"Tian et al, 2020",32112886,Acute kidney injury,,46,,216
+S80,"Tian et al, 2020",32112886,sex_male,26,46,101,216
+S80,"Tian et al, 2020",32112886,sex_female,20,46,115,216
+S9,"Chen et al, 2020",32141280,Any comorbity,,24,,126
+S9,"Chen et al, 2020",32141280,Hypertension,14,24,35,126
+S9,"Chen et al, 2020",32141280,Diabetes,5,24,15,126
+S9,"Chen et al, 2020",32141280,Any heart condition,6,24,3,126
+S9,"Chen et al, 2020",32141280,COPD,,24,,126
+S9,"Chen et al, 2020",32141280,Carcinoma,,24,,126
+S9,"Chen et al, 2020",32141280,Fever,,24,,126
+S9,"Chen et al, 2020",32141280,Fatigue,,24,,126
+S9,"Chen et al, 2020",32141280,Myalgia,,24,,126
+S9,"Chen et al, 2020",32141280,Headache,,24,,126
+S9,"Chen et al, 2020",32141280,Cough,,24,,126
+S9,"Chen et al, 2020",32141280,Sputum,,24,,126
+S9,"Chen et al, 2020",32141280,Dyspnoe,,24,,126
+S9,"Chen et al, 2020",32141280,Sore throat / Pharyngalgia,,24,,126
+S9,"Chen et al, 2020",32141280,Diarrhea,,24,,126
+S9,"Chen et al, 2020",32141280,Antibiotics,,24,,126
+S9,"Chen et al, 2020",32141280,Antiviral treatment,,24,,126
+S9,"Chen et al, 2020",32141280,Corticosteroids,,24,,126
+S9,"Chen et al, 2020",32141280,CT - Pathological findings,,24,,126
+S9,"Chen et al, 2020",32141280,CT- Pneumonia,,24,,126
+S9,"Chen et al, 2020",32141280,ARDS,,24,,126
+S9,"Chen et al, 2020",32141280,Acute kidney injury,,24,,126
+S9,"Chen et al, 2020",32141280,sex_male,18,24,66,126
+S9,"Chen et al, 2020",32141280,sex_female,6,24,60,126
+S87,"Wang et al, 2020",32176772,Any comorbity,,14,,55
+S87,"Wang et al, 2020",32176772,Hypertension,5,14,4,55
+S87,"Wang et al, 2020",32176772,Diabetes,6,14,1,55
+S87,"Wang et al, 2020",32176772,Any heart condition,5,14,3,55
+S87,"Wang et al, 2020",32176772,COPD,2,14,2,55
+S87,"Wang et al, 2020",32176772,Carcinoma,2,14,3,55
+S87,"Wang et al, 2020",32176772,Fever,13,14,47,55
+S87,"Wang et al, 2020",32176772,Fatigue,7,14,22,55
+S87,"Wang et al, 2020",32176772,Myalgia,2,14,19,55
+S87,"Wang et al, 2020",32176772,Headache,0,14,10,55
+S87,"Wang et al, 2020",32176772,Cough,8,14,30,55
+S87,"Wang et al, 2020",32176772,Sputum,4,14,16,55
+S87,"Wang et al, 2020",32176772,Dyspnoe,7,14,13,55
+S87,"Wang et al, 2020",32176772,Sore throat / Pharyngalgia,1,14,5,55
+S87,"Wang et al, 2020",32176772,Diarrhea,2,14,8,55
+S87,"Wang et al, 2020",32176772,Antibiotics,12,14,54,55
+S87,"Wang et al, 2020",32176772,Antiviral treatment,11,14,55,55
+S87,"Wang et al, 2020",32176772,Corticosteroids,4,14,6,55
+S87,"Wang et al, 2020",32176772,CT - Pathological findings,14,14,55,55
+S87,"Wang et al, 2020",32176772,CT- Pneumonia,,14,,55
+S87,"Wang et al, 2020",32176772,ARDS,,14,,55
+S87,"Wang et al, 2020",32176772,Acute kidney injury,,14,,55
+S87,"Wang et al, 2020",32176772,sex_male,7,14,25,55
+S87,"Wang et al, 2020",32176772,sex_female,7,14,30,55
+S88,"Wang et al, 2020",32179910,Any comorbity,2,2,,14
+S88,"Wang et al, 2020",32179910,Hypertension,2,2,0,14
+S88,"Wang et al, 2020",32179910,Diabetes,,2,,14
+S88,"Wang et al, 2020",32179910,Any heart condition,,2,,14
+S88,"Wang et al, 2020",32179910,COPD,,2,,14
+S88,"Wang et al, 2020",32179910,Carcinoma,,2,,14
+S88,"Wang et al, 2020",32179910,Fever,,2,,14
+S88,"Wang et al, 2020",32179910,Fatigue,,2,,14
+S88,"Wang et al, 2020",32179910,Myalgia,,2,,14
+S88,"Wang et al, 2020",32179910,Headache,,2,,14
+S88,"Wang et al, 2020",32179910,Cough,,2,,14
+S88,"Wang et al, 2020",32179910,Sputum,,2,,14
+S88,"Wang et al, 2020",32179910,Dyspnoe,,2,,14
+S88,"Wang et al, 2020",32179910,Sore throat / Pharyngalgia,,2,,14
+S88,"Wang et al, 2020",32179910,Diarrhea,,2,,14
+S88,"Wang et al, 2020",32179910,Antibiotics,,2,,14
+S88,"Wang et al, 2020",32179910,Antiviral treatment,2,2,14,14
+S88,"Wang et al, 2020",32179910,Corticosteroids,2,2,,14
+S88,"Wang et al, 2020",32179910,CT - Pathological findings,,2,,14
+S88,"Wang et al, 2020",32179910,CT- Pneumonia,,2,,14
+S88,"Wang et al, 2020",32179910,ARDS,,2,,14
+S88,"Wang et al, 2020",32179910,Acute kidney injury,,2,,14
+S88,"Wang et al, 2020",32179910,sex_male,0,2,4,14
+S88,"Wang et al, 2020",32179910,sex_female,2,2,10,14
+S65,"Qian et al, 2020",32181807,Any comorbity,,9,,82
+S65,"Qian et al, 2020",32181807,Hypertension,,9,,82
+S65,"Qian et al, 2020",32181807,Diabetes,,9,,82
+S65,"Qian et al, 2020",32181807,Any heart condition,,9,,82
+S65,"Qian et al, 2020",32181807,COPD,,9,,82
+S65,"Qian et al, 2020",32181807,Carcinoma,,9,,82
+S65,"Qian et al, 2020",32181807,Fever, ,9,,82
+S65,"Qian et al, 2020",32181807,Fatigue,,9,,82
+S65,"Qian et al, 2020",32181807,Myalgia,,9,,82
+S65,"Qian et al, 2020",32181807,Headache,,9,,82
+S65,"Qian et al, 2020",32181807,Cough,,9,,82
+S65,"Qian et al, 2020",32181807,Sputum,,9,,82
+S65,"Qian et al, 2020",32181807,Dyspnoe,,9,,82
+S65,"Qian et al, 2020",32181807,Sore throat / Pharyngalgia,,9,,82
+S65,"Qian et al, 2020",32181807,Diarrhea,,9,,82
+S65,"Qian et al, 2020",32181807,Antibiotics, ,9,,82
+S65,"Qian et al, 2020",32181807,Antiviral treatment,,9,,82
+S65,"Qian et al, 2020",32181807,Corticosteroids,,9,,82
+S65,"Qian et al, 2020",32181807,CT - Pathological findings, ,9, ,82
+S65,"Qian et al, 2020",32181807,CT- Pneumonia, ,9,,82
+S65,"Qian et al, 2020",32181807,ARDS,,9,,82
+S65,"Qian et al, 2020",32181807,Acute kidney injury,,9,,82
+S65,"Qian et al, 2020",32181807,sex_male,,9,,82
+S65,"Qian et al, 2020",32181807,sex_female,,9,,82
+S66,"Qu et al, 2020",32181903,Any comorbity,,3,,27
+S66,"Qu et al, 2020",32181903,Hypertension,,3,,27
+S66,"Qu et al, 2020",32181903,Diabetes,,3,,27
+S66,"Qu et al, 2020",32181903,Any heart condition,,3,,27
+S66,"Qu et al, 2020",32181903,COPD,,3,,27
+S66,"Qu et al, 2020",32181903,Carcinoma,,3,,27
+S66,"Qu et al, 2020",32181903,Fever,,3,,27
+S66,"Qu et al, 2020",32181903,Fatigue,,3,,27
+S66,"Qu et al, 2020",32181903,Myalgia,,3,,27
+S66,"Qu et al, 2020",32181903,Headache,,3,,27
+S66,"Qu et al, 2020",32181903,Cough,,3,,27
+S66,"Qu et al, 2020",32181903,Sputum,,3,,27
+S66,"Qu et al, 2020",32181903,Dyspnoe,,3,,27
+S66,"Qu et al, 2020",32181903,Sore throat / Pharyngalgia,,3,,27
+S66,"Qu et al, 2020",32181903,Diarrhea,,3,,27
+S66,"Qu et al, 2020",32181903,Antibiotics,,3,,27
+S66,"Qu et al, 2020",32181903,Antiviral treatment,,3,,27
+S66,"Qu et al, 2020",32181903,Corticosteroids,,3,,27
+S66,"Qu et al, 2020",32181903,CT - Pathological findings,,3,,27
+S66,"Qu et al, 2020",32181903,CT- Pneumonia,,3,,27
+S66,"Qu et al, 2020",32181903,ARDS,,3,,27
+S66,"Qu et al, 2020",32181903,Acute kidney injury,,3,,27
+S66,"Qu et al, 2020",32181903,sex_male,,3,,27
+S66,"Qu et al, 2020",32181903,sex_female,,3,,27
+S84,"Wan et al, 2020",32198776,Any comorbity,28,40,15,95
+S84,"Wan et al, 2020",32198776,Hypertension,4,40,9,95
+S84,"Wan et al, 2020",32198776,Diabetes,9,40,3,95
+S84,"Wan et al, 2020",32198776,Any heart condition,6,40,1,95
+S84,"Wan et al, 2020",32198776,COPD,4,40,0,95
+S84,"Wan et al, 2020",32198776,Carcinoma,0,40,1,95
+S84,"Wan et al, 2020",32198776,Fever,30,40,84,95
+S84,"Wan et al, 2020",32198776,Fatigue,19,40,25,95
+S84,"Wan et al, 2020",32198776,Myalgia, ,40, ,95
+S84,"Wan et al, 2020",32198776,Headache,11,40,23,95
+S84,"Wan et al, 2020",32198776,Cough,35,40,67,95
+S84,"Wan et al, 2020",32198776,Sputum,7,40,5,95
+S84,"Wan et al, 2020",32198776,Dyspnoe,18,40,0,95
+S84,"Wan et al, 2020",32198776,Sore throat / Pharyngalgia,0,40,24,95
+S84,"Wan et al, 2020",32198776,Diarrhea,13,40,5,95
+S84,"Wan et al, 2020",32198776,Antibiotics,35,40,24,95
+S84,"Wan et al, 2020",32198776,Antiviral treatment,40,40,95,95
+S84,"Wan et al, 2020",32198776,Corticosteroids,21,40,15,95
+S84,"Wan et al, 2020",32198776,CT - Pathological findings,40,40,95,95
+S84,"Wan et al, 2020",32198776,CT- Pneumonia,40,40,95,95
+S84,"Wan et al, 2020",32198776,ARDS,20,40,1,95
+S84,"Wan et al, 2020",32198776,Acute kidney injury,1,40,4,95
+S84,"Wan et al, 2020",32198776,sex_male,21,40,52,95
+S84,"Wan et al, 2020",32198776,sex_female,19,40,43,95
+S69,"Shi et al, 2020",32211816,Any comorbity,,82,,334
+S69,"Shi et al, 2020",32211816,Hypertension,49,82,78,334
+S69,"Shi et al, 2020",32211816,Diabetes,20,82,40,334
+S69,"Shi et al, 2020",32211816,Any heart condition,24,82,20,334
+S69,"Shi et al, 2020",32211816,COPD,6,82,6,334
+S69,"Shi et al, 2020",32211816,Carcinoma,6,82,2,334
+S69,"Shi et al, 2020",32211816,Fever,63,82,271,334
+S69,"Shi et al, 2020",32211816,Fatigue,15,82,40,334
+S69,"Shi et al, 2020",32211816,Myalgia,5,82,14,334
+S69,"Shi et al, 2020",32211816,Headache,2,82,7,334
+S69,"Shi et al, 2020",32211816,Cough,28,82,116,334
+S69,"Shi et al, 2020",32211816,Sputum,3,82,20,334
+S69,"Shi et al, 2020",32211816,Dyspnoe,,82,,334
+S69,"Shi et al, 2020",32211816,Sore throat / Pharyngalgia,4,82,8,334
+S69,"Shi et al, 2020",32211816,Diarrhea,1,82,15,334
+S69,"Shi et al, 2020",32211816,Antibiotics,68,82,167,334
+S69,"Shi et al, 2020",32211816,Antiviral treatment,82,82,321,334
+S69,"Shi et al, 2020",32211816,Corticosteroids,72,82,232,334
+S69,"Shi et al, 2020",32211816,CT - Pathological findings,82,82,334,334
+S69,"Shi et al, 2020",32211816,CT- Pneumonia,82,82,334,334
+S69,"Shi et al, 2020",32211816,ARDS,48,82,49,334
+S69,"Shi et al, 2020",32211816,Acute kidney injury,7,82,1,334
+S69,"Shi et al, 2020",32211816,sex_male,44,82,161,334
+S69,"Shi et al, 2020",32211816,sex_female,38,82,173,334

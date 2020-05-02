@@ -1,0 +1,239 @@
+﻿study_nr,Study,PMID,Condition,Ec,Nc,Ee,Ne
+S115,"Zhou et al, 2020",32171076,Any comorbity,55,137,36,54
+S107,"Yuan et al, 2020",32191754,Any comorbity,5,17,8,10
+S100,"Yang et al, 2020",32105632,Any comorbity,,20,,32
+S18,"Deng et al, 2020",32209890,Any comorbity,48,116,79,109
+S79,Tang et al. 2020,32073213,Any comorbity,63,162,12,21
+S12,Chen et al. 2020,32217556,Any comorbity,62,161,71,113
+S67,Ren et al. 2020,32004165,Any comorbity,1,4,1,1
+S115,"Zhou et al, 2020",32171076,Hypertension,32,137,26,54
+S107,"Yuan et al, 2020",32191754,Hypertension,0,17,5,10
+S100,"Yang et al, 2020",32105632,Hypertension,,20,,32
+S18,"Deng et al, 2020",32209890,Hypertension,18,116,40,109
+S79,Tang et al. 2020,32073213,Hypertension,,162,,21
+S12,Chen et al. 2020,32217556,Hypertension,39,161,54,113
+S67,Ren et al. 2020,32004165,Hypertension,1,4,0,1
+S115,"Zhou et al, 2020",32171076,Diabetes,19,137,17,54
+S107,"Yuan et al, 2020",32191754,Diabetes,0,17,6,10
+S100,"Yang et al, 2020",32105632,Diabetes,2,20,7,32
+S18,"Deng et al, 2020",32209890,Diabetes,9,116,17,109
+S79,Tang et al. 2020,32073213,Diabetes,,162,,21
+S12,Chen et al. 2020,32217556,Diabetes,23,161,24,113
+S67,Ren et al. 2020,32004165,Diabetes,,4,,1
+S115,"Zhou et al, 2020",32171076,Any heart condition,2,137,13,54
+S107,"Yuan et al, 2020",32191754,Any heart condition,0,17,3,10
+S100,"Yang et al, 2020",32105632,Any heart condition,2,20,3,32
+S18,"Deng et al, 2020",32209890,Any heart condition,4,116,13,109
+S79,Tang et al. 2020,32073213,Any heart condition,,162,,21
+S12,Chen et al. 2020,32217556,Any heart condition,7,161,16,113
+S67,Ren et al. 2020,32004165,Any heart condition,,4,,1
+S115,"Zhou et al, 2020",32171076,Cerebrovascular disease,,137,,54
+S107,"Yuan et al, 2020",32191754,Cerebrovascular disease,0,17,1,10
+S100,"Yang et al, 2020",32105632,Cerebrovascular disease,0,20,7,32
+S18,"Deng et al, 2020",32209890,Cerebrovascular disease,,116,,109
+S79,Tang et al. 2020,32073213,Cerebrovascular disease,,162,,21
+S12,Chen et al. 2020,32217556,Cerebrovascular disease,0,161,4,113
+S67,Ren et al. 2020,32004165,Cerebrovascular disease,,4,,1
+S115,"Zhou et al, 2020",32171076,Any lung disease,2,137,4,54
+S107,"Yuan et al, 2020",32191754,Any lung disease,,17,,10
+S100,"Yang et al, 2020",32105632,Any lung disease,2,20,2,32
+S18,"Deng et al, 2020",32209890,Any lung disease,3,116,22,109
+S79,Tang et al. 2020,32073213,Any lung disease,,162,,21
+S12,Chen et al. 2020,32217556,Any lung disease,7,161,11,113
+S67,Ren et al. 2020,32004165,Any lung disease,,4,,1
+S115,"Zhou et al, 2020",32171076,Carcinoma,2,137,0,54
+S107,"Yuan et al, 2020",32191754,Carcinoma,1,17,0,10
+S100,"Yang et al, 2020",32105632,Carcinoma,1,20,1,32
+S18,"Deng et al, 2020",32209890,Carcinoma,2,116,6,109
+S79,Tang et al. 2020,32073213,Carcinoma,,162,,21
+S12,Chen et al. 2020,32217556,Carcinoma,2,161,5,113
+S67,Ren et al. 2020,32004165,Carcinoma,,4,,1
+S115,"Zhou et al, 2020",32171076,Current smoker,6,137,5,54
+S107,"Yuan et al, 2020",32191754,Current smoker,,17,,10
+S100,"Yang et al, 2020",32105632,Current smoker,2,20,0,32
+S18,"Deng et al, 2020",32209890,Current smoker,,116,,109
+S79,Tang et al. 2020,32073213,Current smoker,,162,,21
+S12,Chen et al. 2020,32217556,Current smoker,5,161,7,113
+S67,Ren et al. 2020,32004165,Current smoker,0,4,1,1
+S115,"Zhou et al, 2020",32171076,Fever,129,137,51,54
+S107,"Yuan et al, 2020",32191754,Fever,15,17,6,10
+S100,"Yang et al, 2020",32105632,Fever,20,20,31,32
+S18,"Deng et al, 2020",32209890,Fever,94,116,95,109
+S79,Tang et al. 2020,32073213,Fever,,162,,21
+S12,Chen et al. 2020,32217556,Fever,145,161,104,113
+S67,Ren et al. 2020,32004165,Fever,4,4,1,1
+S115,"Zhou et al, 2020",32171076,Fatigue,29,137,15,54
+S107,"Yuan et al, 2020",32191754,Fatigue,,17,,10
+S100,"Yang et al, 2020",32105632,Fatigue,,20,,32
+S18,"Deng et al, 2020",32209890,Fatigue,27,116,30,109
+S79,Tang et al. 2020,32073213,Fatigue,,162,,21
+S12,Chen et al. 2020,32217556,Fatigue,73,161,64,113
+S67,Ren et al. 2020,32004165,Fatigue,,4,,1
+S115,"Zhou et al, 2020",32171076,Myalgia,21,137,8,54
+S107,"Yuan et al, 2020",32191754,Myalgia,2,17,1,10
+S100,"Yang et al, 2020",32105632,Myalgia,2,20,4,32
+S18,"Deng et al, 2020",32209890,Myalgia,,116,,109
+S79,Tang et al. 2020,32073213,Myalgia,,162,,21
+S12,Chen et al. 2020,32217556,Myalgia,39,161,21,113
+S67,Ren et al. 2020,32004165,Myalgia,2,4,1,1
+S115,"Zhou et al, 2020",32171076,Headache,,137,,54
+S107,"Yuan et al, 2020",32191754,Headache,,17,,10
+S100,"Yang et al, 2020",32105632,Headache,1,20,2,32
+S18,"Deng et al, 2020",32209890,Headache,7,116,6,109
+S79,Tang et al. 2020,32073213,Headache,,162,,21
+S12,Chen et al. 2020,32217556,Headache,20,161,11,113
+S67,Ren et al. 2020,32004165,Headache,1,4,0,1
+S115,"Zhou et al, 2020",32171076,Cough,112,137,39,54
+S107,"Yuan et al, 2020",32191754,Cough,11,17,5,10
+S100,"Yang et al, 2020",32105632,Cough,15,20,25,32
+S18,"Deng et al, 2020",32209890,Cough,38,116,47,109
+S79,Tang et al. 2020,32073213,Cough,,162,,21
+S12,Chen et al. 2020,32217556,Cough,16,161,79,113
+S67,Ren et al. 2020,32004165,Cough,4,4,1,1
+S115,"Zhou et al, 2020",32171076,Sputum,30,137,14,54
+S107,"Yuan et al, 2020",32191754,Sputum,,17,,10
+S100,"Yang et al, 2020",32105632,Sputum,,20,,32
+S18,"Deng et al, 2020",32209890,Sputum,14,116,35,109
+S79,Tang et al. 2020,32073213,Sputum,,162,,21
+S12,Chen et al. 2020,32217556,Sputum,48,161,35,113
+S67,Ren et al. 2020,32004165,Sputum,1,4,0,1
+S115,"Zhou et al, 2020",32171076,Dyspnoe,,137,,54
+S107,"Yuan et al, 2020",32191754,Dyspnoe,1,17,10,10
+S100,"Yang et al, 2020",32105632,Dyspnoe,12,20,21,32
+S18,"Deng et al, 2020",32209890,Dyspnoe,22,116,77,109
+S79,Tang et al. 2020,32073213,Dyspnoe,,162,,21
+S12,Chen et al. 2020,32217556,Dyspnoe,50,161,70,113
+S67,Ren et al. 2020,32004165,Dyspnoe,,4,,1
+S115,"Zhou et al, 2020",32171076,Diarrhea,7,137,2,54
+S107,"Yuan et al, 2020",32191754,Diarrhea,,17,,10
+S100,"Yang et al, 2020",32105632,Diarrhea,,20,,32
+S18,"Deng et al, 2020",32209890,Diarrhea,14,116,19,109
+S79,Tang et al. 2020,32073213,Diarrhea,,162,,21
+S12,Chen et al. 2020,32217556,Diarrhea,50,161,27,113
+S67,Ren et al. 2020,32004165,Diarrhea,0,4,0,1
+S115,"Zhou et al, 2020",32171076,Antibiotics,128,137,53,54
+S107,"Yuan et al, 2020",32191754,Antibiotics,,17,,10
+S100,"Yang et al, 2020",32105632,Antibiotics,19,20,30,32
+S18,"Deng et al, 2020",32209890,Antibiotics,100,116,91,109
+S79,Tang et al. 2020,32073213,Antibiotics,,162,,21
+S12,Chen et al. 2020,32217556,Antibiotics,144,161,105,113
+S67,Ren et al. 2020,32004165,Antibiotics,4,4,1,1
+S115,"Zhou et al, 2020",32171076,Antiviral treatment,29,137,12,54
+S107,"Yuan et al, 2020",32191754,Antiviral treatment,,17,,10
+S100,"Yang et al, 2020",32105632,Antiviral treatment,13,20,10,32
+S18,"Deng et al, 2020",32209890,Antiviral treatment,95,116,90,109
+S79,Tang et al. 2020,32073213,Antiviral treatment,162,162,21,21
+S12,Chen et al. 2020,32217556,Antiviral treatment,147,161,89,113
+S67,Ren et al. 2020,32004165,Antiviral treatment,,4,,1
+S115,"Zhou et al, 2020",32171076,Corticosteroids,31,137,26,54
+S107,"Yuan et al, 2020",32191754,Corticosteroids,,17,,10
+S100,"Yang et al, 2020",32105632,Corticosteroids,14,20,16,32
+S18,"Deng et al, 2020",32209890,Corticosteroids,64,116,88,109
+S79,Tang et al. 2020,32073213,Corticosteroids,,162,,21
+S12,Chen et al. 2020,32217556,Corticosteroids,118,161,99,113
+S67,Ren et al. 2020,32004165,Corticosteroids,,4,,1
+S115,"Zhou et al, 2020",32171076,Immunoglobulin,10,137,36,54
+S107,"Yuan et al, 2020",32191754,Immunoglobulin,,17,,10
+S100,"Yang et al, 2020",32105632,Immunoglobulin,9,20,19,32
+S18,"Deng et al, 2020",32209890,Immunoglobulin,44,116,44,109
+S79,Tang et al. 2020,32073213,Immunoglobulin,,162,,21
+S12,Chen et al. 2020,32217556,Immunoglobulin,59,161,44,113
+S67,Ren et al. 2020,32004165,Immunoglobulin,,4,,1
+S115,"Zhou et al, 2020",32171076,Oxygen nasal (high flow),8,137,33,54
+S107,"Yuan et al, 2020",32191754,Oxygen nasal (high flow),,17,,10
+S100,"Yang et al, 2020",32105632,Oxygen nasal (high flow),17,20,16,32
+S18,"Deng et al, 2020",32209890,Oxygen nasal (high flow),106,116,28,109
+S79,Tang et al. 2020,32073213,Oxygen nasal (high flow),,162,,21
+S12,Chen et al. 2020,32217556,Oxygen nasal (high flow),8,161,77,113
+S67,Ren et al. 2020,32004165,Oxygen nasal (high flow),,4,,1
+S115,"Zhou et al, 2020",32171076,All mechanical ventilation,3,137,54,54
+S107,"Yuan et al, 2020",32191754,All mechanical ventilation,,17,,10
+S100,"Yang et al, 2020",32105632,All mechanical ventilation,7,20,30,32
+S18,"Deng et al, 2020",32209890,All mechanical ventilation,10,116,79,109
+S79,Tang et al. 2020,32073213,All mechanical ventilation,,162,,21
+S12,Chen et al. 2020,32217556,All mechanical ventilation,26,161,93,113
+S67,Ren et al. 2020,32004165,All mechanical ventilation,2,4,1,1
+S115,"Zhou et al, 2020",32171076,Non-invasive mech. V.,2,137,24,54
+S107,"Yuan et al, 2020",32191754,Non-invasive mech. V.,,17,,10
+S100,"Yang et al, 2020",32105632,Non-invasive mech. V.,6,20,23,32
+S18,"Deng et al, 2020",32209890,Non-invasive mech. V.,10,116,58,109
+S79,Tang et al. 2020,32073213,Non-invasive mech. V.,,162,,21
+S12,Chen et al. 2020,32217556,Non-invasive mech. V.,26,161,76,113
+S67,Ren et al. 2020,32004165,Non-invasive mech. V.,1,4,0,1
+S115,"Zhou et al, 2020",32171076,Invasive mech. V.,1,137,31,54
+S107,"Yuan et al, 2020",32191754,Invasive mech. V.,,17,,10
+S100,"Yang et al, 2020",32105632,Invasive mech. V.,3,20,19,32
+S18,"Deng et al, 2020",32209890,Invasive mech. V.,0,116,21,109
+S79,Tang et al. 2020,32073213,Invasive mech. V.,,162,,21
+S12,Chen et al. 2020,32217556,Invasive mech. V.,0,161,17,113
+S67,Ren et al. 2020,32004165,Invasive mech. V.,1,4,1,1
+S115,"Zhou et al, 2020",32171076,RRT,0,137,10,54
+S107,"Yuan et al, 2020",32191754,RRT,,17,,10
+S100,"Yang et al, 2020",32105632,RRT,1,20,8,32
+S18,"Deng et al, 2020",32209890,RRT,,116,,109
+S79,Tang et al. 2020,32073213,RRT,,162,,21
+S12,Chen et al. 2020,32217556,RRT,0,161,3,113
+S67,Ren et al. 2020,32004165,RRT,0,4,1,1
+S115,"Zhou et al, 2020",32171076,ECMO,0,137,3,54
+S107,"Yuan et al, 2020",32191754,ECMO,,17,,10
+S100,"Yang et al, 2020",32105632,ECMO,1,20,5,32
+S18,"Deng et al, 2020",32209890,ECMO,0,116,2,109
+S79,Tang et al. 2020,32073213,ECMO,,162,,21
+S12,Chen et al. 2020,32217556,ECMO,0,161,1,113
+S67,Ren et al. 2020,32004165,ECMO,1,4,1,1
+S115,"Zhou et al, 2020",32171076,CT - Pathological findings,,137,,54
+S107,"Yuan et al, 2020",32191754,CT - Pathological findings,17,17,10,10
+S100,"Yang et al, 2020",32105632,CT - Pathological findings,,20,,32
+S18,"Deng et al, 2020",32209890,CT - Pathological findings,,116,,109
+S79,Tang et al. 2020,32073213,CT - Pathological findings,,162,,21
+S12,Chen et al. 2020,32217556,CT - Pathological findings,152,161,113,113
+S67,Ren et al. 2020,32004165,CT - Pathological findings,4,4,1,1
+S115,"Zhou et al, 2020",32171076,CT- Pneumonia,98,137,45,54
+S107,"Yuan et al, 2020",32191754,CT- Pneumonia,17,17,,10
+S100,"Yang et al, 2020",32105632,CT- Pneumonia,,20,10,32
+S18,"Deng et al, 2020",32209890,CT- Pneumonia,,116,,109
+S79,Tang et al. 2020,32073213,CT- Pneumonia,,162,,21
+S12,Chen et al. 2020,32217556,CT- Pneumonia,152,161,113,113
+S67,Ren et al. 2020,32004165,CT- Pneumonia,4,4,1,1
+S115,"Zhou et al, 2020",32171076,ARDS,9,137,50,54
+S107,"Yuan et al, 2020",32191754,ARDS,1,17,10,10
+S100,"Yang et al, 2020",32105632,ARDS,9,20,26,32
+S18,"Deng et al, 2020",32209890,ARDS,10,116,98,109
+S79,Tang et al. 2020,32073213,ARDS,,162,,21
+S12,Chen et al. 2020,32217556,ARDS,83,161,113,113
+S67,Ren et al. 2020,32004165,ARDS,3,4,1,1
+S115,"Zhou et al, 2020",32171076,Shock,0,137,38,54
+S107,"Yuan et al, 2020",32191754,Shock,,17,,10
+S100,"Yang et al, 2020",32105632,Shock,,20,,32
+S18,"Deng et al, 2020",32209890,Shock,0,116,13,109
+S79,Tang et al. 2020,32073213,Shock,,162,,21
+S12,Chen et al. 2020,32217556,Shock,0,161,46,113
+S67,Ren et al. 2020,32004165,Shock,0,4,1,1
+S115,"Zhou et al, 2020",32171076,Acute cardiac injury,1,137,32,54
+S107,"Yuan et al, 2020",32191754,Acute cardiac injury,,17,,10
+S100,"Yang et al, 2020",32105632,Acute cardiac injury,3,20,9,32
+S18,"Deng et al, 2020",32209890,Acute cardiac injury,1,116,65,109
+S79,Tang et al. 2020,32073213,Acute cardiac injury,,162,,21
+S12,Chen et al. 2020,32217556,Acute cardiac injury,18,161,72,113
+S67,Ren et al. 2020,32004165,Acute cardiac injury,,4,,1
+S115,"Zhou et al, 2020",32171076,Acute kidney injury,1,137,27,54
+S107,"Yuan et al, 2020",32191754,Acute kidney injury,,17,,10
+S100,"Yang et al, 2020",32105632,Acute kidney injury,3,20,12,32
+S18,"Deng et al, 2020",32209890,Acute kidney injury,0,116,20,109
+S79,Tang et al. 2020,32073213,Acute kidney injury,,162,,21
+S12,Chen et al. 2020,32217556,Acute kidney injury,1,161,28,113
+S67,Ren et al. 2020,32004165,Acute kidney injury,0,4,1,1
+S115,"Zhou et al, 2020",32171076,sex_male,81,137,38,54
+S107,"Yuan et al, 2020",32191754,sex_male,8,17,4,10
+S100,"Yang et al, 2020",32105632,sex_male,14,20,21,32
+S18,"Deng et al, 2020",32209890,sex_male,51,116,73,109
+S79,Tang et al. 2020,32073213,sex_male,82,162,16,21
+S12,Chen et al. 2020,32217556,sex_male,88,161,83,113
+S67,Ren et al. 2020,32004165,sex_male,2,4,1,1
+S115,"Zhou et al, 2020",32171076,sex_female,56,137,16,54
+S107,"Yuan et al, 2020",32191754,sex_female,9,17,6,10
+S100,"Yang et al, 2020",32105632,sex_female,6,20,11,32
+S18,"Deng et al, 2020",32209890,sex_female,65,116,36,109
+S79,Tang et al. 2020,32073213,sex_female,80,162,5,21
+S12,Chen et al. 2020,32217556,sex_female,73,161,30,113
+S67,Ren et al. 2020,32004165,sex_female,2,4,0,1

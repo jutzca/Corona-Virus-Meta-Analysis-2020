@@ -13,30 +13,30 @@ library(tidyverse)
 library(ggplot2)
 
 #List Number of Studies Found in Each Database
-search_db_1 = 2194  #Embase
-search_db_2 = 1922  #Pubmed/Medline
-search_db_3 = 1348  #Scopus
-search_db_4 = 1046  #Web of Science
-search_db_5 = 7  #Other Sources (e.g., Reference Lists)
+search_db_1 = 1804  #Embase
+search_db_2 = 2194  #Pubmed/Medline
+search_db_3 = 453  #Scopus
+search_db_4 = 596  #Web of Science
+search_db_5 = 2  #Other Sources (e.g., Reference Lists)
 
 #Caculate total number of studies indentified
 total_results_from_search = search_db_1 + search_db_2 + search_db_3 +search_db_4+ search_db_5
 
 #Caculate total number duplicates
-duplicates_removed = 3438
+duplicates_removed = 2444
 
 #Total number of records screened
 records_screened = total_results_from_search - duplicates_removed
 
 #Total number of records exluded based on titles and abstracts
-exclusion1 = 20
+exclusion1 = 2243
 full_text_articles_retrieved = records_screened - exclusion1
 
 #Total number of records exluded based on full text
-exclusion2 = 5
+exclusion2 = 214
 articles_indluded_in_synthesis = full_text_articles_retrieved - exclusion2
 
-extraction = 20
+extraction = 19
 
 format_statistics <- function(statistic){
   return(format(round(statistic), nsmall = 0, big.mark = ","))
@@ -229,13 +229,13 @@ p <- p +
 p <- p +
   geom_rect(xmin = 20, xmax = 50, ymin = 10, ymax = 20, color = 'black',
             fill = 'white', size = 0.25) +
-  annotate('text', x = 35, y = 15, label = paste('Articles included in the classification\n (n=',
+  annotate('text', x = 35, y = 15, label = paste('Articles included in the meta-analysis\n (n=',
                                                  format_statistics(extraction),
                                                  ')'),size = 4)
 
 #Define theme
 p <- p + theme_void()
-
+p
 #Print plot as pdf
 pdf('/Users/jutzelec/Documents/GitHub/Corona-Virus-Meta-Analysis-2020/⁨Corona-Virus-Meta-Analysis-2020⁩prisma-diagram.pdf',width = 12, height=10)
 plot(p)
