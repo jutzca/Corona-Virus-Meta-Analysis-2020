@@ -5,7 +5,7 @@
 
 **Funding**:This study was funded by a research grant from the Swiss National Science Foundation (Ambizione Grant #PZ00P3_186101, Jutzeler).
 
-**Link to paper**: [Preprint at MedRxiv] https://www.medrxiv.org/content/10.1101/2020.05.20.20103804v1
+**Link to paper**: [Preprint at MedRxiv](https://www.medrxiv.org/content/10.1101/2020.05.20.20103804v1)
 
 The aim of this study was to aggregate information on comorbidities, signs and symptoms, laboratory parameter, imaging features, and treatments associate with different outcomes (e.g., death, survival, severity of disease) in patients that were infected with the recently emerged SARS-CoV-2 virus.
 
