@@ -10,4 +10,4 @@ Since December 2019, a novel coronavirus (SARS-CoV-2) has triggered a world-wide
 
 **Funding**: This study was funded by a research grant from the Swiss National Science Foundation (Ambizione Grant #PZ00P3_186101, Jutzeler).
 
-**Who should we contact?**: [Dr. Catherine Jutzeler](mailto:catherine.jutzeler@bsse.ethz.ch?subject=GitHub:%20Jutzeler%20et%20al,%20Travel%20Med%20Infect%20Dis.%202020)
+**Who should we contact?**: [Dr. Catherine Jutzeler](mailto:catherine.jutzeler@bsse.ethz.ch?subject=GitHub:%20Jutzeler%20et%20al,%202020%20Travel%20Med%20Infect%20Dis.)
