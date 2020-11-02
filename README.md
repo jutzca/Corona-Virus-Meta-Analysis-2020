@@ -10,5 +10,5 @@ Since December 2019, a novel coronavirus (SARS-CoV-2) has triggered a world-wide
 
 **Funding**: This study was funded by a research grant from the Swiss National Science Foundation (Ambizione Grant #PZ00P3_186101, Jutzeler).
 
-## Contact: 
+### Contact: 
 [Lucie Bourguignon](mailto:lucie.Bourguignon@bsse.ethz.ch?subject=[GitHub]%20Source%20Han%20Sans) or [Dr. Catherine Jutzeler](mailto:catherine.jutzeler@bsse.ethz.ch?subject=[GitHub]%20Source%20Han%20Sans)
